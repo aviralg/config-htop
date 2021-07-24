@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+switch (uname)
+    case Linux
+        sudo apt-get install htop
+    case Darwin
+        brew install htop
+end
